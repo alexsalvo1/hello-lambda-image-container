@@ -6,11 +6,11 @@ This is a procedure on how to create a container image, starting from a simple n
 ### Prerequisites
 
 * Initialization
-  ```sh
-  cd app
-  npm init
-  cd ..
-  ```
+    ```sh
+    cd app
+    npm init
+    cd ..
+    ```
 
 ### Container Image
 
