@@ -1,7 +1,7 @@
 FROM public.ecr.aws/lambda/nodejs:12
 # Alternatively, you can pull the base image from Docker Hub: amazon/aws-lambda-nodejs:12
 
-COPY app.js package*.json /var/task/
+COPY app/app.js app/package*.json /var/task/
 
 # Install NPM dependencies for function
 RUN npm install
